@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WAHANA"
+        android:textSize="@dimen/title"
+        android:textColor="@color/title"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/txt_title_wahana"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/txt_title_wahana"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/rvWahana"
+        android:layout_width="match_parent"
+        android:layout_height="410dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/button"
+        android:id="@+id/button2" />
+
+    <Button
+        android:id="@+id/bthome"
+        android:layout_width="52dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/home" />
+
+    <Button
+        android:id="@+id/btfasilitas"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fasilitas" />
+
+    <Button
+        android:id="@+id/btwahana"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginLeft="270dp"
+        android:background="@drawable/kwah" />
+
+    <Button
+        android:id="@+id/btdesc"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginLeft="89dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/deskripsi" />
+
+    <Button
+        android:id="@+id/btanggota"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/anggota" />
+
+</RelativeLayout>
